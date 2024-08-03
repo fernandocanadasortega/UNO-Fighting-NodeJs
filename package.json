@@ -3,20 +3,19 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/fernandocanadasortega/UNO-Fighting-NodeJs.git"
-  },
-  "keywords": [
-    "UNO-Fighting-NodeJs"
-  ],
   "author": "Napo",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fernandocanadasortega/UNO-Fighting-NodeJs/issues"
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0"
   },
-  "homepage": "https://github.com/fernandocanadasortega/UNO-Fighting-NodeJs#readme"
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2"
+  }
 }
